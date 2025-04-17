@@ -1,32 +1,98 @@
-# Environment variables
+# Environment variables and secrets
 .env
-.env.local
 .env.*
+*.env
+.env.local
+.env.development
+.env.test
+.env.production
+.secret*
+*config.json
+credentials.json
+*_key.json
+*_keys.json
+secrets.yaml
+secrets.yml
+
+# API Keys and Tokens
+*apikey*
+*token*
+*.pem
+*.key
+*.cert
+*.p12
 
 # Dependencies
 node_modules/
 venv/
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
 # IDE specific files
-.vscode/
 .idea/
+.vscode/
 *.swp
 *.swo
+*.swn
+*.bak
+*.sublime*
+.settings/
 
 # OS specific files
 .DS_Store
 Thumbs.db
-
-# Logs
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
 
-# Build directories
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# Build and output directories
 dist/
 build/
+out/
+.next/
+.nuxt/
+.cache/
+public/dist/
+
+# Backup files
+*.bak
+*.backup
+*~
+*.old
+tmp/
+temp/
+
+# Personal files that might contain sensitive info
+personal/
+private/
+confidential/
 
 CursorUserSetup-x64-0.48.7.exe
 cursor/
