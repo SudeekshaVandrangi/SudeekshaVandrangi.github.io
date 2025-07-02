@@ -150,6 +150,16 @@
     margin-bottom: 1.5rem;
 }
 
+.article-content a {
+    color: var(--primary-color);
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+
+.article-content a:hover {
+    color: #a78bfa; /* lighter purple for hover, or adjust as needed */
+}
+
 /* Social Share Section */
 .social-share {
     margin: 3rem 0;
